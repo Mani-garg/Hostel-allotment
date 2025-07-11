@@ -9,6 +9,8 @@ import hostelRoute from "./Routes/Hostel.js";
 import adminRoute from "./Routes/admin.js";
 import activityRoutes from "./Routes/activityRoutes.js";
 dotenv.config();
+console.log("Loaded MONGO URI:", process.env.MONGODB_URI);  // <== Add this line
+
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
